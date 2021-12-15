@@ -1,3 +1,5 @@
+package programms;
+
 import java.util.Scanner;
 
 
