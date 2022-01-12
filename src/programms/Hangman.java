@@ -7,7 +7,6 @@ public class Hangman {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
 
         String[] word = {"Feldkirch", "Rankweil", "Dornbirn"};
         Random random = new Random();
@@ -26,6 +25,17 @@ public class Hangman {
             } else
                 System.out.print("*");
 
+        }
+
+        System.out.println();
+        Scanner scanner = new Scanner(System.in);
+
+        int letter = scanner.nextInt();
+        for (int i = 0; i < wordtoguess.length(); i++) {
+
+            if(
+
+            )
         }
 
 
