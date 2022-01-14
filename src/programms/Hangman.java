@@ -33,9 +33,9 @@ public class Hangman {
         int letter = scanner.nextInt();
         for (int i = 0; i < wordtoguess.length(); i++) {
 
-            if(
+            /*if(
 
-            )
+            )*/
         }
 
 
