@@ -1,6 +1,7 @@
 package oo.ISaHASa;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Zoo {
 
@@ -20,7 +21,7 @@ public class Zoo {
     }
 
     public void printAnimals(){
-        for (Animal animal:this.anials){
+        for (Animal animal:this.animals){
             System.out.println("Aniaml weight: " + animal.getWeigth());
         }
     }
