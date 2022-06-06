@@ -2,6 +2,11 @@ package oo.camera;
 
 public class Objektiv {
 
-    private String producer;
+    private Producer producer;
     private int focalLength;
+
+    public Objektiv(Producer producer, int focalLength){
+        this.producer = producer;
+        this.focalLength = focalLength;
+    }
 }
