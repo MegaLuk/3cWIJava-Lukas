@@ -80,7 +80,7 @@ public class Camera {
 
     public void takepicture(){
 
-        if()
+
 
         Picture picture = new Picture(this.getGigabyte());
 
