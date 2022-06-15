@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+         CoffeeMachine kaffeemaschine1 = new CoffeeMachine();
+
 
         System.out.println("1 -> einschalten");
         System.out.println("2 -> größe des Kaffees einzustellen");

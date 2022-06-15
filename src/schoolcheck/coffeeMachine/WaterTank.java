@@ -1,8 +1,10 @@
 package schoolcheck.coffeeMachine;
 
 public class WaterTank {
-    int wCurrentCapacity = 800;
-    int wFullCapacity = 1000;
+    int wCurrentCapacity = 500;
+    int wFullCapacity =1000;
+
+
 
 
     public int getwCurrentCapacity() {

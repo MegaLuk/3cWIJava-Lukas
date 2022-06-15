@@ -4,7 +4,8 @@ public class CoffeeMachine {
     private int CoffeeSize;
     private int CoffeeStrength;
 
-
+    WaterTank Tank1 = new WaterTank();
+    BeanContainer Container1 = new BeanContainer();
 
     public int getCoffeeSize() {
         if (CoffeeSize >= 40 && CoffeeSize <= 200) {
@@ -22,7 +23,7 @@ public class CoffeeMachine {
             return CoffeeStrength;
         }
 
-        public void setCoffeeStrength( int coffeeStrength){
+        public void setCoffeeStrength(int coffeeStrength){
             if (CoffeeStrength >= 1 && CoffeeStrength <= 10) {
                 this.CoffeeStrength = CoffeeStrength;
             } else {
